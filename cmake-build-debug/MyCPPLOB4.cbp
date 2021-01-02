@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MyCPPLOB4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyCPPLOB4">
+				<Option output="/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/MyCPPLOB4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/estebanlanter/CLionProjects/MyCPPLOB4/./src/LimitOrderBook"/>
+					<Add directory="/Users/estebanlanter/CLionProjects/MyCPPLOB4/./src/tsl"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyCPPLOB4"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyCPPLOB4/fast">
+				<Option output="/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/MyCPPLOB4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/estebanlanter/CLionProjects/MyCPPLOB4/./src/LimitOrderBook"/>
+					<Add directory="/Users/estebanlanter/CLionProjects/MyCPPLOB4/./src/tsl"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyCPPLOB4/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/main.cpp">
+			<Option target="MyCPPLOB4"/>
+		</Unit>
+		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/Engine.h">
+			<Option target="MyCPPLOB4"/>
+		</Unit>
+		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/Order.h">
+			<Option target="MyCPPLOB4"/>
+		</Unit>
+		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/OrderBook.h">
+			<Option target="MyCPPLOB4"/>
+		</Unit>
+		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/PriceNode.h">
+			<Option target="MyCPPLOB4"/>
+		</Unit>
+		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/tsl/ordered_hash.h">
+			<Option target="MyCPPLOB4"/>
+		</Unit>
+		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/tsl/ordered_map.h">
+			<Option target="MyCPPLOB4"/>
+		</Unit>
+		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/tsl/ordered_set.h">
+			<Option target="MyCPPLOB4"/>
+		</Unit>
+		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
