@@ -170,113 +170,113 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCPPLOB4.dir/build.make CMakeFiles/MyCPPLOB4.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/LimitOrderBook/Engine.o: src/LimitOrderBook/Engine.cpp.o
+src/Engine/Engine.o: src/Engine/Engine.cpp.o
 
-.PHONY : src/LimitOrderBook/Engine.o
-
-# target to build an object file
-src/LimitOrderBook/Engine.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCPPLOB4.dir/build.make CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Engine.cpp.o
-.PHONY : src/LimitOrderBook/Engine.cpp.o
-
-src/LimitOrderBook/Engine.i: src/LimitOrderBook/Engine.cpp.i
-
-.PHONY : src/LimitOrderBook/Engine.i
-
-# target to preprocess a source file
-src/LimitOrderBook/Engine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCPPLOB4.dir/build.make CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Engine.cpp.i
-.PHONY : src/LimitOrderBook/Engine.cpp.i
-
-src/LimitOrderBook/Engine.s: src/LimitOrderBook/Engine.cpp.s
-
-.PHONY : src/LimitOrderBook/Engine.s
-
-# target to generate assembly for a file
-src/LimitOrderBook/Engine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCPPLOB4.dir/build.make CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Engine.cpp.s
-.PHONY : src/LimitOrderBook/Engine.cpp.s
-
-src/LimitOrderBook/Order.o: src/LimitOrderBook/Order.cpp.o
-
-.PHONY : src/LimitOrderBook/Order.o
+.PHONY : src/Engine/Engine.o
 
 # target to build an object file
-src/LimitOrderBook/Order.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCPPLOB4.dir/build.make CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Order.cpp.o
-.PHONY : src/LimitOrderBook/Order.cpp.o
+src/Engine/Engine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCPPLOB4.dir/build.make CMakeFiles/MyCPPLOB4.dir/src/Engine/Engine.cpp.o
+.PHONY : src/Engine/Engine.cpp.o
 
-src/LimitOrderBook/Order.i: src/LimitOrderBook/Order.cpp.i
+src/Engine/Engine.i: src/Engine/Engine.cpp.i
 
-.PHONY : src/LimitOrderBook/Order.i
+.PHONY : src/Engine/Engine.i
 
 # target to preprocess a source file
-src/LimitOrderBook/Order.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCPPLOB4.dir/build.make CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Order.cpp.i
-.PHONY : src/LimitOrderBook/Order.cpp.i
+src/Engine/Engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCPPLOB4.dir/build.make CMakeFiles/MyCPPLOB4.dir/src/Engine/Engine.cpp.i
+.PHONY : src/Engine/Engine.cpp.i
 
-src/LimitOrderBook/Order.s: src/LimitOrderBook/Order.cpp.s
+src/Engine/Engine.s: src/Engine/Engine.cpp.s
 
-.PHONY : src/LimitOrderBook/Order.s
+.PHONY : src/Engine/Engine.s
 
 # target to generate assembly for a file
-src/LimitOrderBook/Order.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCPPLOB4.dir/build.make CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Order.cpp.s
-.PHONY : src/LimitOrderBook/Order.cpp.s
+src/Engine/Engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCPPLOB4.dir/build.make CMakeFiles/MyCPPLOB4.dir/src/Engine/Engine.cpp.s
+.PHONY : src/Engine/Engine.cpp.s
 
-src/LimitOrderBook/OrderBook.o: src/LimitOrderBook/OrderBook.cpp.o
+src/OrderBook/Order.o: src/OrderBook/Order.cpp.o
 
-.PHONY : src/LimitOrderBook/OrderBook.o
+.PHONY : src/OrderBook/Order.o
 
 # target to build an object file
-src/LimitOrderBook/OrderBook.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCPPLOB4.dir/build.make CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/OrderBook.cpp.o
-.PHONY : src/LimitOrderBook/OrderBook.cpp.o
+src/OrderBook/Order.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCPPLOB4.dir/build.make CMakeFiles/MyCPPLOB4.dir/src/OrderBook/Order.cpp.o
+.PHONY : src/OrderBook/Order.cpp.o
 
-src/LimitOrderBook/OrderBook.i: src/LimitOrderBook/OrderBook.cpp.i
+src/OrderBook/Order.i: src/OrderBook/Order.cpp.i
 
-.PHONY : src/LimitOrderBook/OrderBook.i
+.PHONY : src/OrderBook/Order.i
 
 # target to preprocess a source file
-src/LimitOrderBook/OrderBook.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCPPLOB4.dir/build.make CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/OrderBook.cpp.i
-.PHONY : src/LimitOrderBook/OrderBook.cpp.i
+src/OrderBook/Order.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCPPLOB4.dir/build.make CMakeFiles/MyCPPLOB4.dir/src/OrderBook/Order.cpp.i
+.PHONY : src/OrderBook/Order.cpp.i
 
-src/LimitOrderBook/OrderBook.s: src/LimitOrderBook/OrderBook.cpp.s
+src/OrderBook/Order.s: src/OrderBook/Order.cpp.s
 
-.PHONY : src/LimitOrderBook/OrderBook.s
+.PHONY : src/OrderBook/Order.s
 
 # target to generate assembly for a file
-src/LimitOrderBook/OrderBook.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCPPLOB4.dir/build.make CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/OrderBook.cpp.s
-.PHONY : src/LimitOrderBook/OrderBook.cpp.s
+src/OrderBook/Order.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCPPLOB4.dir/build.make CMakeFiles/MyCPPLOB4.dir/src/OrderBook/Order.cpp.s
+.PHONY : src/OrderBook/Order.cpp.s
 
-src/LimitOrderBook/PriceNode.o: src/LimitOrderBook/PriceNode.cpp.o
+src/OrderBook/OrderBook.o: src/OrderBook/OrderBook.cpp.o
 
-.PHONY : src/LimitOrderBook/PriceNode.o
+.PHONY : src/OrderBook/OrderBook.o
 
 # target to build an object file
-src/LimitOrderBook/PriceNode.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCPPLOB4.dir/build.make CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/PriceNode.cpp.o
-.PHONY : src/LimitOrderBook/PriceNode.cpp.o
+src/OrderBook/OrderBook.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCPPLOB4.dir/build.make CMakeFiles/MyCPPLOB4.dir/src/OrderBook/OrderBook.cpp.o
+.PHONY : src/OrderBook/OrderBook.cpp.o
 
-src/LimitOrderBook/PriceNode.i: src/LimitOrderBook/PriceNode.cpp.i
+src/OrderBook/OrderBook.i: src/OrderBook/OrderBook.cpp.i
 
-.PHONY : src/LimitOrderBook/PriceNode.i
+.PHONY : src/OrderBook/OrderBook.i
 
 # target to preprocess a source file
-src/LimitOrderBook/PriceNode.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCPPLOB4.dir/build.make CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/PriceNode.cpp.i
-.PHONY : src/LimitOrderBook/PriceNode.cpp.i
+src/OrderBook/OrderBook.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCPPLOB4.dir/build.make CMakeFiles/MyCPPLOB4.dir/src/OrderBook/OrderBook.cpp.i
+.PHONY : src/OrderBook/OrderBook.cpp.i
 
-src/LimitOrderBook/PriceNode.s: src/LimitOrderBook/PriceNode.cpp.s
+src/OrderBook/OrderBook.s: src/OrderBook/OrderBook.cpp.s
 
-.PHONY : src/LimitOrderBook/PriceNode.s
+.PHONY : src/OrderBook/OrderBook.s
 
 # target to generate assembly for a file
-src/LimitOrderBook/PriceNode.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCPPLOB4.dir/build.make CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/PriceNode.cpp.s
-.PHONY : src/LimitOrderBook/PriceNode.cpp.s
+src/OrderBook/OrderBook.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCPPLOB4.dir/build.make CMakeFiles/MyCPPLOB4.dir/src/OrderBook/OrderBook.cpp.s
+.PHONY : src/OrderBook/OrderBook.cpp.s
+
+src/OrderBook/PriceNode.o: src/OrderBook/PriceNode.cpp.o
+
+.PHONY : src/OrderBook/PriceNode.o
+
+# target to build an object file
+src/OrderBook/PriceNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCPPLOB4.dir/build.make CMakeFiles/MyCPPLOB4.dir/src/OrderBook/PriceNode.cpp.o
+.PHONY : src/OrderBook/PriceNode.cpp.o
+
+src/OrderBook/PriceNode.i: src/OrderBook/PriceNode.cpp.i
+
+.PHONY : src/OrderBook/PriceNode.i
+
+# target to preprocess a source file
+src/OrderBook/PriceNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCPPLOB4.dir/build.make CMakeFiles/MyCPPLOB4.dir/src/OrderBook/PriceNode.cpp.i
+.PHONY : src/OrderBook/PriceNode.cpp.i
+
+src/OrderBook/PriceNode.s: src/OrderBook/PriceNode.cpp.s
+
+.PHONY : src/OrderBook/PriceNode.s
+
+# target to generate assembly for a file
+src/OrderBook/PriceNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCPPLOB4.dir/build.make CMakeFiles/MyCPPLOB4.dir/src/OrderBook/PriceNode.cpp.s
+.PHONY : src/OrderBook/PriceNode.cpp.s
 
 # Help Target
 help:
@@ -290,18 +290,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/LimitOrderBook/Engine.o"
-	@echo "... src/LimitOrderBook/Engine.i"
-	@echo "... src/LimitOrderBook/Engine.s"
-	@echo "... src/LimitOrderBook/Order.o"
-	@echo "... src/LimitOrderBook/Order.i"
-	@echo "... src/LimitOrderBook/Order.s"
-	@echo "... src/LimitOrderBook/OrderBook.o"
-	@echo "... src/LimitOrderBook/OrderBook.i"
-	@echo "... src/LimitOrderBook/OrderBook.s"
-	@echo "... src/LimitOrderBook/PriceNode.o"
-	@echo "... src/LimitOrderBook/PriceNode.i"
-	@echo "... src/LimitOrderBook/PriceNode.s"
+	@echo "... src/Engine/Engine.o"
+	@echo "... src/Engine/Engine.i"
+	@echo "... src/Engine/Engine.s"
+	@echo "... src/OrderBook/Order.o"
+	@echo "... src/OrderBook/Order.i"
+	@echo "... src/OrderBook/Order.s"
+	@echo "... src/OrderBook/OrderBook.o"
+	@echo "... src/OrderBook/OrderBook.i"
+	@echo "... src/OrderBook/OrderBook.s"
+	@echo "... src/OrderBook/PriceNode.o"
+	@echo "... src/OrderBook/PriceNode.i"
+	@echo "... src/OrderBook/PriceNode.s"
 .PHONY : help
 
 

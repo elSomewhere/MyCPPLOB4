@@ -90,74 +90,74 @@ CMakeFiles/MyCPPLOB4.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyCPPLOB4.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/estebanlanter/CLionProjects/MyCPPLOB4/main.cpp -o CMakeFiles/MyCPPLOB4.dir/main.cpp.s
 
-CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Engine.cpp.o: CMakeFiles/MyCPPLOB4.dir/flags.make
-CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Engine.cpp.o: ../src/LimitOrderBook/Engine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Engine.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Engine.cpp.o -c /Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/Engine.cpp
+CMakeFiles/MyCPPLOB4.dir/src/Engine/Engine.cpp.o: CMakeFiles/MyCPPLOB4.dir/flags.make
+CMakeFiles/MyCPPLOB4.dir/src/Engine/Engine.cpp.o: ../src/Engine/Engine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyCPPLOB4.dir/src/Engine/Engine.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyCPPLOB4.dir/src/Engine/Engine.cpp.o -c /Users/estebanlanter/CLionProjects/MyCPPLOB4/src/Engine/Engine.cpp
 
-CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Engine.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Engine.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/Engine.cpp > CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Engine.cpp.i
+CMakeFiles/MyCPPLOB4.dir/src/Engine/Engine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyCPPLOB4.dir/src/Engine/Engine.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/estebanlanter/CLionProjects/MyCPPLOB4/src/Engine/Engine.cpp > CMakeFiles/MyCPPLOB4.dir/src/Engine/Engine.cpp.i
 
-CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Engine.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Engine.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/Engine.cpp -o CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Engine.cpp.s
+CMakeFiles/MyCPPLOB4.dir/src/Engine/Engine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyCPPLOB4.dir/src/Engine/Engine.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/estebanlanter/CLionProjects/MyCPPLOB4/src/Engine/Engine.cpp -o CMakeFiles/MyCPPLOB4.dir/src/Engine/Engine.cpp.s
 
-CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Order.cpp.o: CMakeFiles/MyCPPLOB4.dir/flags.make
-CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Order.cpp.o: ../src/LimitOrderBook/Order.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Order.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Order.cpp.o -c /Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/Order.cpp
+CMakeFiles/MyCPPLOB4.dir/src/OrderBook/Order.cpp.o: CMakeFiles/MyCPPLOB4.dir/flags.make
+CMakeFiles/MyCPPLOB4.dir/src/OrderBook/Order.cpp.o: ../src/OrderBook/Order.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyCPPLOB4.dir/src/OrderBook/Order.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyCPPLOB4.dir/src/OrderBook/Order.cpp.o -c /Users/estebanlanter/CLionProjects/MyCPPLOB4/src/OrderBook/Order.cpp
 
-CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Order.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Order.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/Order.cpp > CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Order.cpp.i
+CMakeFiles/MyCPPLOB4.dir/src/OrderBook/Order.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyCPPLOB4.dir/src/OrderBook/Order.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/estebanlanter/CLionProjects/MyCPPLOB4/src/OrderBook/Order.cpp > CMakeFiles/MyCPPLOB4.dir/src/OrderBook/Order.cpp.i
 
-CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Order.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Order.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/Order.cpp -o CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Order.cpp.s
+CMakeFiles/MyCPPLOB4.dir/src/OrderBook/Order.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyCPPLOB4.dir/src/OrderBook/Order.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/estebanlanter/CLionProjects/MyCPPLOB4/src/OrderBook/Order.cpp -o CMakeFiles/MyCPPLOB4.dir/src/OrderBook/Order.cpp.s
 
-CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/OrderBook.cpp.o: CMakeFiles/MyCPPLOB4.dir/flags.make
-CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/OrderBook.cpp.o: ../src/LimitOrderBook/OrderBook.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/OrderBook.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/OrderBook.cpp.o -c /Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/OrderBook.cpp
+CMakeFiles/MyCPPLOB4.dir/src/OrderBook/OrderBook.cpp.o: CMakeFiles/MyCPPLOB4.dir/flags.make
+CMakeFiles/MyCPPLOB4.dir/src/OrderBook/OrderBook.cpp.o: ../src/OrderBook/OrderBook.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MyCPPLOB4.dir/src/OrderBook/OrderBook.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyCPPLOB4.dir/src/OrderBook/OrderBook.cpp.o -c /Users/estebanlanter/CLionProjects/MyCPPLOB4/src/OrderBook/OrderBook.cpp
 
-CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/OrderBook.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/OrderBook.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/OrderBook.cpp > CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/OrderBook.cpp.i
+CMakeFiles/MyCPPLOB4.dir/src/OrderBook/OrderBook.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyCPPLOB4.dir/src/OrderBook/OrderBook.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/estebanlanter/CLionProjects/MyCPPLOB4/src/OrderBook/OrderBook.cpp > CMakeFiles/MyCPPLOB4.dir/src/OrderBook/OrderBook.cpp.i
 
-CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/OrderBook.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/OrderBook.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/OrderBook.cpp -o CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/OrderBook.cpp.s
+CMakeFiles/MyCPPLOB4.dir/src/OrderBook/OrderBook.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyCPPLOB4.dir/src/OrderBook/OrderBook.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/estebanlanter/CLionProjects/MyCPPLOB4/src/OrderBook/OrderBook.cpp -o CMakeFiles/MyCPPLOB4.dir/src/OrderBook/OrderBook.cpp.s
 
-CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/PriceNode.cpp.o: CMakeFiles/MyCPPLOB4.dir/flags.make
-CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/PriceNode.cpp.o: ../src/LimitOrderBook/PriceNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/PriceNode.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/PriceNode.cpp.o -c /Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/PriceNode.cpp
+CMakeFiles/MyCPPLOB4.dir/src/OrderBook/PriceNode.cpp.o: CMakeFiles/MyCPPLOB4.dir/flags.make
+CMakeFiles/MyCPPLOB4.dir/src/OrderBook/PriceNode.cpp.o: ../src/OrderBook/PriceNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MyCPPLOB4.dir/src/OrderBook/PriceNode.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyCPPLOB4.dir/src/OrderBook/PriceNode.cpp.o -c /Users/estebanlanter/CLionProjects/MyCPPLOB4/src/OrderBook/PriceNode.cpp
 
-CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/PriceNode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/PriceNode.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/PriceNode.cpp > CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/PriceNode.cpp.i
+CMakeFiles/MyCPPLOB4.dir/src/OrderBook/PriceNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyCPPLOB4.dir/src/OrderBook/PriceNode.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/estebanlanter/CLionProjects/MyCPPLOB4/src/OrderBook/PriceNode.cpp > CMakeFiles/MyCPPLOB4.dir/src/OrderBook/PriceNode.cpp.i
 
-CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/PriceNode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/PriceNode.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/PriceNode.cpp -o CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/PriceNode.cpp.s
+CMakeFiles/MyCPPLOB4.dir/src/OrderBook/PriceNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyCPPLOB4.dir/src/OrderBook/PriceNode.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/estebanlanter/CLionProjects/MyCPPLOB4/src/OrderBook/PriceNode.cpp -o CMakeFiles/MyCPPLOB4.dir/src/OrderBook/PriceNode.cpp.s
 
 # Object files for target MyCPPLOB4
 MyCPPLOB4_OBJECTS = \
 "CMakeFiles/MyCPPLOB4.dir/main.cpp.o" \
-"CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Engine.cpp.o" \
-"CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Order.cpp.o" \
-"CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/OrderBook.cpp.o" \
-"CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/PriceNode.cpp.o"
+"CMakeFiles/MyCPPLOB4.dir/src/Engine/Engine.cpp.o" \
+"CMakeFiles/MyCPPLOB4.dir/src/OrderBook/Order.cpp.o" \
+"CMakeFiles/MyCPPLOB4.dir/src/OrderBook/OrderBook.cpp.o" \
+"CMakeFiles/MyCPPLOB4.dir/src/OrderBook/PriceNode.cpp.o"
 
 # External object files for target MyCPPLOB4
 MyCPPLOB4_EXTERNAL_OBJECTS =
 
 MyCPPLOB4: CMakeFiles/MyCPPLOB4.dir/main.cpp.o
-MyCPPLOB4: CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Engine.cpp.o
-MyCPPLOB4: CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/Order.cpp.o
-MyCPPLOB4: CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/OrderBook.cpp.o
-MyCPPLOB4: CMakeFiles/MyCPPLOB4.dir/src/LimitOrderBook/PriceNode.cpp.o
+MyCPPLOB4: CMakeFiles/MyCPPLOB4.dir/src/Engine/Engine.cpp.o
+MyCPPLOB4: CMakeFiles/MyCPPLOB4.dir/src/OrderBook/Order.cpp.o
+MyCPPLOB4: CMakeFiles/MyCPPLOB4.dir/src/OrderBook/OrderBook.cpp.o
+MyCPPLOB4: CMakeFiles/MyCPPLOB4.dir/src/OrderBook/PriceNode.cpp.o
 MyCPPLOB4: CMakeFiles/MyCPPLOB4.dir/build.make
 MyCPPLOB4: CMakeFiles/MyCPPLOB4.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable MyCPPLOB4"

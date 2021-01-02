@@ -44,7 +44,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/estebanlanter/CLionProjects/MyCPPLOB4/./src/LimitOrderBook"/>
+					<Add directory="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/OrderBook"/>
+					<Add directory="/Users/estebanlanter/CLionProjects/MyCPPLOB4/./src/Engine"/>
 					<Add directory="/Users/estebanlanter/CLionProjects/MyCPPLOB4/./src/tsl"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
@@ -67,7 +68,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/estebanlanter/CLionProjects/MyCPPLOB4/./src/LimitOrderBook"/>
+					<Add directory="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/OrderBook"/>
+					<Add directory="/Users/estebanlanter/CLionProjects/MyCPPLOB4/./src/Engine"/>
 					<Add directory="/Users/estebanlanter/CLionProjects/MyCPPLOB4/./src/tsl"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
@@ -87,28 +89,28 @@
 		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/main.cpp">
 			<Option target="MyCPPLOB4"/>
 		</Unit>
-		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/Engine.cpp">
+		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/Engine/Engine.cpp">
 			<Option target="MyCPPLOB4"/>
 		</Unit>
-		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/Engine.h">
+		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/Engine/Engine.h">
 			<Option target="MyCPPLOB4"/>
 		</Unit>
-		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/Order.cpp">
+		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/OrderBook/Order.cpp">
 			<Option target="MyCPPLOB4"/>
 		</Unit>
-		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/Order.h">
+		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/OrderBook/Order.h">
 			<Option target="MyCPPLOB4"/>
 		</Unit>
-		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/OrderBook.cpp">
+		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/OrderBook/OrderBook.cpp">
 			<Option target="MyCPPLOB4"/>
 		</Unit>
-		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/OrderBook.h">
+		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/OrderBook/OrderBook.h">
 			<Option target="MyCPPLOB4"/>
 		</Unit>
-		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/PriceNode.cpp">
+		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/OrderBook/PriceNode.cpp">
 			<Option target="MyCPPLOB4"/>
 		</Unit>
-		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/PriceNode.h">
+		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/OrderBook/PriceNode.h">
 			<Option target="MyCPPLOB4"/>
 		</Unit>
 		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/tsl/ordered_hash.h">

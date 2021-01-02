@@ -1,29 +1,31 @@
 cmake_minimum_required(VERSION 3.17)
 project(MyCPPLOB4)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 17)
 
 
-set(LIB_DOMAIN ./src/LimitOrderBook)
+set(ORDERBOOK_DOMAIN src/OrderBook)
 set(EXT_DOMAIN ./src/tsl)
+set(ENGINE_DOMAIN ./src/Engine)
 
-include_directories(${LIB_DOMAIN})
+include_directories(${ORDERBOOK_DOMAIN})
+include_directories(${ENGINE_DOMAIN})
 include_directories(${EXT_DOMAIN})
 
 set(
         SOURCE_FILES
         main.cpp
-        ${LIB_DOMAIN}/Engine.h
-        ${LIB_DOMAIN}/Order.h
-        ${LIB_DOMAIN}/OrderBook.h
-        ${LIB_DOMAIN}/PriceNode.h
+        ${ENGINE_DOMAIN}/Engine.h
+        ${ORDERBOOK_DOMAIN}/Order.h
+        ${ORDERBOOK_DOMAIN}/OrderBook.h
+        ${ORDERBOOK_DOMAIN}/PriceNode.h
         ${EXT_DOMAIN}/ordered_hash.h
         ${EXT_DOMAIN}/ordered_set.h
         ${EXT_DOMAIN}/ordered_map.h
-        ${LIB_DOMAIN}/Engine.cpp
-        ${LIB_DOMAIN}/Order.cpp
-        ${LIB_DOMAIN}/OrderBook.cpp
-        ${LIB_DOMAIN}/PriceNode.cpp
+        ${ENGINE_DOMAIN}/Engine.cpp
+        ${ORDERBOOK_DOMAIN}/Order.cpp
+        ${ORDERBOOK_DOMAIN}/OrderBook.cpp
+        ${ORDERBOOK_DOMAIN}/PriceNode.cpp
 )
 
 

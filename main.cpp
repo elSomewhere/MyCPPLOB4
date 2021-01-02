@@ -1,10 +1,10 @@
 #include <iostream>
-#include "Engine.h"
+#include "src/Engine/Engine.h"
 
 int main() {
 
-    int max_book_width = 100;
-    int max_order_capacity = 100;
+    int max_book_width = 100000;
+    int max_order_capacity = 100000;
     Engine lob(&max_book_width, &max_order_capacity);
 
     // fill
@@ -18,13 +18,11 @@ int main() {
     lob.print_book(10);
 
     // removal
-    std::cout<<"start removal"<<std::endl;
     lob.delete_limit_order_ask(3);
     std::cout<<"After removal"<<std::endl;
     lob.print_book(10);
 
     //cancellation
-    std::cout<<"start cancellation"<<std::endl;
     lob.cancel_limit_order_bid(4, 30, true);
     std::cout<<"After cancellation"<<std::endl;
     lob.print_book(10);
