@@ -35,8 +35,6 @@ public:
     void match_book_limit_order_bid(int price, int volume, int order_id);
     void match_book_limit_order_ask(int price, int volume, int order_id);
 
-    // Utils
-    // prints (move to egine later
     void print_book(int maxdepth);
     int * get_book(int maxdepth);
 };

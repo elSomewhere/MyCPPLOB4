@@ -67,7 +67,6 @@ std::shared_ptr<Order> PriceNode::add_order(const int &order_id, const int &volu
 };
 
 std::shared_ptr<Order> PriceNode::remove_order(const int &order_id){
-    //std::cout<<"start remove, all orders size is "<<all_orders.size()<<" and queue size is "<<PriceNode::orders_queue.size()<<std::endl;
     std::shared_ptr<Order> order = PriceNode::get_order(order_id);
     PriceNode::orders_queue.erase(order);
     all_orders.erase(order_id);

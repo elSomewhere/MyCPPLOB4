@@ -20,6 +20,10 @@ set(
         ${EXT_DOMAIN}/ordered_hash.h
         ${EXT_DOMAIN}/ordered_set.h
         ${EXT_DOMAIN}/ordered_map.h
+        ${LIB_DOMAIN}/Engine.cpp
+        ${LIB_DOMAIN}/Order.cpp
+        ${LIB_DOMAIN}/OrderBook.cpp
+        ${LIB_DOMAIN}/PriceNode.cpp
 )
 
 

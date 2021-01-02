@@ -94,12 +94,12 @@ clean: CMakeFiles/MyCPPLOB4.dir/clean
 CMakeFiles/MyCPPLOB4.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCPPLOB4.dir/build.make CMakeFiles/MyCPPLOB4.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCPPLOB4.dir/build.make CMakeFiles/MyCPPLOB4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target MyCPPLOB4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target MyCPPLOB4"
 .PHONY : CMakeFiles/MyCPPLOB4.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MyCPPLOB4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MyCPPLOB4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/estebanlanter/CLionProjects/MyCPPLOB4/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/MyCPPLOB4.dir/rule

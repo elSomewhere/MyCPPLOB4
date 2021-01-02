@@ -278,9 +278,57 @@ std::shared_ptr<Order> OrderBook::replace_limit_order_ask(int order_id_old, int 
     return res;
 };
 
-std::set<std::shared_ptr<PriceNode>, PriceNodeComparatorBids> OrderBook::get_orderbook_bids(){
-    return orderbook_bids;
+
+
+
+
+//print
+void OrderBook::print_book(int maxdepth){
+    int counter = 0;
+    std::shared_ptr<PriceNode> pricenode;
+    std::cout<<"___ASKS___"<< std::endl;
+    for(auto it=orderbook_asks.begin(); it!=orderbook_asks.end() && counter < maxdepth; ++it){
+        pricenode = *it;
+        std::cout<<"price: "<< pricenode->get_price() << " volume: " << pricenode->get_total_volume()<<std::endl;
+        counter += 1;
+    }
+    counter = 0;
+    std::cout<<"___BIDS___"<< std::endl;
+    for(std::set<std::shared_ptr<PriceNode>, PriceNodeComparatorBids>::iterator it=orderbook_bids.begin(); it!=orderbook_bids.end() && counter < maxdepth; ++it){
+        pricenode = *it;
+        std::cout<<"price: "<< pricenode->get_price() << " volume: " << pricenode->get_total_volume()<<std::endl;
+        counter += 1;
+    }
+    std::cout<<"==========="<< std::endl;
 };
-std::set<std::shared_ptr<PriceNode>, PriceNodeComparatorAsks> OrderBook::get_orderbook_asks(){
-    return orderbook_asks;
+
+int * OrderBook::get_book(int maxdepth){
+    int counter = 0;
+    int res[maxdepth*2*2];
+    std::shared_ptr<PriceNode> pricenode;
+    for(std::set<std::shared_ptr<PriceNode>, PriceNodeComparatorAsks>::iterator it=orderbook_asks.begin(); it!=orderbook_asks.end() && counter!=maxdepth*2; ++it){
+        pricenode = *it;
+        res[counter] = pricenode->get_price();
+        res[counter+1] = pricenode->get_total_volume();
+        counter += 2;
+    }
+    for(; counter < maxdepth*2; ++counter){
+        res[counter] = -1;
+        res[counter+1] = -1;
+    }
+    counter = maxdepth*2;
+    for(std::set<std::shared_ptr<PriceNode>, PriceNodeComparatorBids>::iterator it=orderbook_bids.begin(); it!=orderbook_bids.end() && counter!=(maxdepth*2*2); ++it){
+        pricenode = *it;
+        res[counter] = pricenode->get_price();
+        res[counter+1] = pricenode->get_total_volume();
+        counter += 2;
+    }
+    for(; counter < maxdepth*2*2; ++counter){
+        res[counter] = -1;
+        res[counter+1] = -1;
+    }
+    for (int i = 0; i<maxdepth*2*2; ++i){
+        std::cout << res[i] << ' ';
+    }
+    return res;
 };

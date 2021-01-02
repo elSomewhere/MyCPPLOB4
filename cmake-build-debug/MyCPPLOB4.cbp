@@ -87,13 +87,25 @@
 		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/main.cpp">
 			<Option target="MyCPPLOB4"/>
 		</Unit>
+		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/Engine.cpp">
+			<Option target="MyCPPLOB4"/>
+		</Unit>
 		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/Engine.h">
+			<Option target="MyCPPLOB4"/>
+		</Unit>
+		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/Order.cpp">
 			<Option target="MyCPPLOB4"/>
 		</Unit>
 		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/Order.h">
 			<Option target="MyCPPLOB4"/>
 		</Unit>
+		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/OrderBook.cpp">
+			<Option target="MyCPPLOB4"/>
+		</Unit>
 		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/OrderBook.h">
+			<Option target="MyCPPLOB4"/>
+		</Unit>
+		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/PriceNode.cpp">
 			<Option target="MyCPPLOB4"/>
 		</Unit>
 		<Unit filename="/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/LimitOrderBook/PriceNode.h">
