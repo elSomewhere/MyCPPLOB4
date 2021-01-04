@@ -66,6 +66,8 @@ public:
     // prints (move to egine later
     void print_book(int maxdepth);
     int * get_book(int maxdepth);
+    std::vector<int> get_book_bids(int maxdepth);
+    std::vector<int> get_book_asks(int maxdepth);
 };
 
 

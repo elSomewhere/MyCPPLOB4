@@ -332,3 +332,31 @@ int * OrderBook::get_book(int maxdepth){
     }
     return res;
 };
+
+
+std::vector<int> OrderBook::get_book_bids(int maxdepth){
+    int counter = 0;
+    std::vector<int> res;
+    std::shared_ptr<PriceNode> pricenode;
+    for(std::set<std::shared_ptr<PriceNode>, PriceNodeComparatorBids>::iterator it=orderbook_bids.begin(); it!=orderbook_bids.end() && counter < maxdepth; ++it){
+        pricenode = *it;
+        res.push_back(pricenode->get_price());
+        res.push_back(pricenode->get_total_volume());
+        counter += 1;
+    }
+    return res;
+};
+
+
+std::vector<int> OrderBook::get_book_asks(int maxdepth){
+    int counter = 0;
+    std::vector<int> res;
+    std::shared_ptr<PriceNode> pricenode;
+    for(std::set<std::shared_ptr<PriceNode>, PriceNodeComparatorAsks>::iterator it=orderbook_asks.begin(); it!=orderbook_asks.end() && counter < maxdepth; ++it){
+        pricenode = *it;
+        res.push_back(pricenode->get_price());
+        res.push_back(pricenode->get_total_volume());
+        counter += 1;
+    }
+    return res;
+};

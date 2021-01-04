@@ -114,6 +114,12 @@ iostream
 src/Engine/Engine.h
 /Users/estebanlanter/CLionProjects/MyCPPLOB4/src/Engine/Engine.h
 
+/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/Engine/Engine.cpp
+Engine.h
+/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/Engine/Engine.h
+OrderBook.h
+/Users/estebanlanter/CLionProjects/MyCPPLOB4/src/Engine/OrderBook.h
+
 /Users/estebanlanter/CLionProjects/MyCPPLOB4/src/Engine/Engine.h
 OrderBook.h
 /Users/estebanlanter/CLionProjects/MyCPPLOB4/src/Engine/OrderBook.h

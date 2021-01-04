@@ -35,8 +35,14 @@ public:
     void match_book_limit_order_bid(int price, int volume, int order_id);
     void match_book_limit_order_ask(int price, int volume, int order_id);
 
+    // match and book book
+    void book_limit_order_bid(int price, int volume, int order_id);
+    void book_limit_order_ask(int price, int volume, int order_id);
+
     void print_book(int maxdepth);
     int * get_book(int maxdepth);
+    std::vector<int> get_book_bids(int maxdepth);
+    std::vector<int> get_book_asks(int maxdepth);
 };
 
 
